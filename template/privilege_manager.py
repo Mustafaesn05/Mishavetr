@@ -1,214 +1,136 @@
+
 from highrise import User
-import json
-import os
-from datetime import datetime
+from typing import Optional
 
-
-class ModerationManager:
-    def __init__(self, bot, role_manager, language_manager):
-        self.bot = bot
+class PrivilegeManager:
+    def __init__(self, bot_instance, role_manager, language_manager):
+        self.bot = bot_instance
         self.role_manager = role_manager
         self.language_manager = language_manager
-        self.log_file = "data/mod_logs.json"
-        self._ensure_log_file()
-
-    def _ensure_log_file(self):
-        os.makedirs("data", exist_ok=True)
-        if not os.path.exists(self.log_file):
-            with open(self.log_file, "w", encoding="utf-8") as f:
-                json.dump([], f)
-
-    def _load_logs(self):
+    
+    async def handle_mod_command(self, user: User, message: str) -> None:
+        """!mod @kullanıcı komutunu işle - Moderator yetkisi toggle"""
+        # Sadece hostlar kullanabilir
+        if not self.role_manager.is_host(user.username):
+            await self.bot.highrise.send_whisper(user.id, "❌ Sadece Host'lar moderator yetkisi verebilir!")
+            return
+        
+        # Komutu parse et: !mod @username
+        parts = message.split()
+        if len(parts) != 2:
+            await self.bot.highrise.send_whisper(user.id, "❌ Kullanım: !mod @kullanıcı")
+            return
+        
+        target_username = parts[1]
+        
+        # @ işaretini kaldır
+        if target_username.startswith("@"):
+            target_username = target_username[1:]
+        
+        # Hedef kullanıcıyı bul
+        target_user = await self.find_user_in_room(target_username)
+        if not target_user:
+            await self.bot.highrise.send_whisper(user.id, f"❌ {target_username} kullanıcısı odada bulunmuyor!")
+            return
+        
+        # Bot'a yetki verilmesini engelle
+        if self.bot.is_bot(user_id=target_user.id, username=target_username):
+            await self.bot.highrise.send_whisper(user.id, "❌ Bot'a moderator yetkisi verilemez!")
+            return
+        
         try:
-            with open(self.log_file, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return []
-
-    def _save_log(self, action: str, moderator: str, target: str, extra: str = ""):
-        logs = self._load_logs()
-        logs.append({
-            "time": datetime.now().strftime("%Y-%m-%d %H:%M"),
-            "action": action,
-            "moderator": moderator,
-            "target": target,
-            "extra": extra
-        })
-        logs = logs[-50:]
+            # Mevcut yetkilerini al
+            permissions = await self.bot.highrise.get_room_privilege(target_user.id)
+            
+            # Moderator yetkisini toggle et
+            current_mod_status = getattr(permissions, 'moderator', False)
+            new_mod_status = not current_mod_status
+            setattr(permissions, 'moderator', new_mod_status)
+            
+            # Yetkileri güncelle
+            await self.bot.highrise.change_room_privilege(target_user.id, permissions)
+            
+            # Sonuç mesajları
+            if new_mod_status:
+                await self.bot.highrise.chat(f"✅ {target_username} moderator olarak atandı!")
+                await self.bot.highrise.send_whisper(target_user.id, "🎉 Size moderator yetkisi verildi!")
+                print(f"{user.username} kullanıcısı {target_username}'ı moderator yaptı")
+            else:
+                await self.bot.highrise.send_whisper(user.id, f"✅ {target_username}'ın moderator yetkisi kaldırıldı!")
+                await self.bot.highrise.send_whisper(target_user.id, "⚠️ Moderator yetkiniz kaldırıldı!")
+                print(f"{user.username} kullanıcısı {target_username}'ın moderator yetkisini kaldırdı")
+                
+        except Exception as e:
+            await self.bot.highrise.send_whisper(user.id, f"❌ Hata oluştu: {str(e)}")
+            print(f"Moderator yetki hatası: {e}")
+    
+    async def handle_design_command(self, user: User, message: str) -> None:
+        """!design @kullanıcı komutunu işle - Designer yetkisi toggle"""
+        # Sadece hostlar kullanabilir
+        if not self.role_manager.is_host(user.username):
+            await self.bot.highrise.send_whisper(user.id, "❌ Sadece Host'lar designer yetkisi verebilir!")
+            return
+        
+        # Komutu parse et: !design @username
+        parts = message.split()
+        if len(parts) != 2:
+            await self.bot.highrise.send_whisper(user.id, "❌ Kullanım: !design @kullanıcı")
+            return
+        
+        target_username = parts[1]
+        
+        # @ işaretini kaldır
+        if target_username.startswith("@"):
+            target_username = target_username[1:]
+        
+        # Hedef kullanıcıyı bul
+        target_user = await self.find_user_in_room(target_username)
+        if not target_user:
+            await self.bot.highrise.send_whisper(user.id, f"❌ {target_username} kullanıcısı odada bulunmuyor!")
+            return
+        
+        # Bot'a yetki verilmesini engelle
+        if self.bot.is_bot(user_id=target_user.id, username=target_username):
+            await self.bot.highrise.send_whisper(user.id, "❌ Bot'a designer yetkisi verilemez!")
+            return
+        
         try:
-            with open(self.log_file, "w", encoding="utf-8") as f:
-                json.dump(logs, f, ensure_ascii=False, indent=2)
-        except Exception:
-            pass
-
-    def can_moderate(self, user: User) -> bool:
-        return self.role_manager.has_role(user.username, "admin")
-
-    def _parse_duration(self, duration_str: str):
+            # Mevcut yetkilerini al
+            permissions = await self.bot.highrise.get_room_privilege(target_user.id)
+            
+            # Designer yetkisini toggle et
+            current_designer_status = getattr(permissions, 'designer', False)
+            new_designer_status = not current_designer_status
+            setattr(permissions, 'designer', new_designer_status)
+            
+            # Yetkileri güncelle
+            await self.bot.highrise.change_room_privilege(target_user.id, permissions)
+            
+            # Sonuç mesajları
+            if new_designer_status:
+                await self.bot.highrise.chat(f"✅ {target_username} designer olarak atandı!")
+                await self.bot.highrise.send_whisper(target_user.id, "🎨 Size designer yetkisi verildi!")
+                print(f"{user.username} kullanıcısı {target_username}'ı designer yaptı")
+            else:
+                await self.bot.highrise.send_whisper(user.id, f"✅ {target_username}'ın designer yetkisi kaldırıldı!")
+                await self.bot.highrise.send_whisper(target_user.id, "⚠️ Designer yetkiniz kaldırıldı!")
+                print(f"{user.username} kullanıcısı {target_username}'ın designer yetkisini kaldırdı")
+                
+        except Exception as e:
+            await self.bot.highrise.send_whisper(user.id, f"❌ Hata oluştu: {str(e)}")
+            print(f"Designer yetki hatası: {e}")
+    
+    async def find_user_in_room(self, username: str) -> Optional[User]:
+        """Odadaki kullanıcıyı bul"""
         try:
-            if duration_str.endswith("m"):
-                return int(duration_str[:-1]) * 60
-            elif duration_str.endswith("h"):
-                return int(duration_str[:-1]) * 3600
-            elif duration_str.endswith("d"):
-                return int(duration_str[:-1]) * 86400
-        except Exception:
-            pass
-        return None
-
-    async def _find_user_in_room(self, username: str):
-        try:
-            room_users = (await self.bot.highrise.get_room_users()).content
-            for room_user, _ in room_users:
+            room_users = await self.bot.highrise.get_room_users()
+            for room_user, position in room_users.content:
                 if room_user.username.lower() == username.lower():
                     return room_user
+            return None
         except Exception:
-            pass
-        return None
-
-    async def handle_kick_command(self, user: User, message: str) -> None:
-        if not self.can_moderate(user):
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("only_admins_can_moderate"))
-            return
-
-        parts = message.split()
-        if len(parts) != 2:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("usage_kick"))
-            return
-
-        username = parts[1].lstrip("@")
-        target = await self._find_user_in_room(username)
-        if not target:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("user_not_found"))
-            return
-
-        try:
-            await self.bot.highrise.moderate_room(target.id, "kick")
-            self._save_log("kick", user.username, username)
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("kick_success").format(username=username))
-        except Exception as e:
-            await self.bot.highrise.send_whisper(user.id, f"Hata: {e}")
-
-    async def handle_ban_command(self, user: User, message: str) -> None:
-        if not self.can_moderate(user):
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("only_admins_can_moderate"))
-            return
-
-        parts = message.split()
-        if len(parts) < 2 or len(parts) > 3:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("usage_ban"))
-            return
-
-        username = parts[1].lstrip("@")
-        duration = None
-        if len(parts) == 3:
-            duration = self._parse_duration(parts[2])
-
-        target = await self._find_user_in_room(username)
-        if not target:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("user_not_found"))
-            return
-
-        try:
-            await self.bot.highrise.moderate_room(target.id, "ban", duration)
-            self._save_log("ban", user.username, username, parts[2] if len(parts) == 3 else "kalici")
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("ban_success").format(username=username))
-        except Exception as e:
-            await self.bot.highrise.send_whisper(user.id, f"Hata: {e}")
-
-    async def handle_unban_command(self, user: User, message: str) -> None:
-        if not self.can_moderate(user):
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("only_admins_can_moderate"))
-            return
-
-        parts = message.split()
-        if len(parts) != 2:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("usage_unban"))
-            return
-
-        username = parts[1].lstrip("@")
-        target = await self._find_user_in_room(username)
-        if not target:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("user_not_found"))
-            return
-
-        try:
-            await self.bot.highrise.moderate_room(target.id, "unban")
-            self._save_log("unban", user.username, username)
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("unban_success").format(username=username))
-        except Exception as e:
-            await self.bot.highrise.send_whisper(user.id, f"Hata: {e}")
-
-    async def handle_mute_command(self, user: User, message: str) -> None:
-        if not self.can_moderate(user):
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("only_admins_can_moderate"))
-            return
-
-        parts = message.split()
-        if len(parts) < 2 or len(parts) > 3:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("usage_mute"))
-            return
-
-        username = parts[1].lstrip("@")
-        duration = None
-        if len(parts) == 3:
-            duration = self._parse_duration(parts[2])
-
-        target = await self._find_user_in_room(username)
-        if not target:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("user_not_found"))
-            return
-
-        try:
-            await self.bot.highrise.moderate_room(target.id, "mute", duration)
-            self._save_log("mute", user.username, username, parts[2] if len(parts) == 3 else "kalici")
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("mute_success").format(username=username))
-        except Exception as e:
-            await self.bot.highrise.send_whisper(user.id, f"Hata: {e}")
-
-    async def handle_unmute_command(self, user: User, message: str) -> None:
-        if not self.can_moderate(user):
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("only_admins_can_moderate"))
-            return
-
-        parts = message.split()
-        if len(parts) != 2:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("usage_unmute"))
-            return
-
-        username = parts[1].lstrip("@")
-        target = await self._find_user_in_room(username)
-        if not target:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("user_not_found"))
-            return
-
-        try:
-            await self.bot.highrise.moderate_room(target.id, "unban")
-            self._save_log("unmute", user.username, username)
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("unmute_success").format(username=username))
-        except Exception as e:
-            await self.bot.highrise.send_whisper(user.id, f"Hata: {e}")
-
-    async def handle_log_command(self, user: User, message: str) -> None:
-        if not self.can_moderate(user):
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("only_admins_can_moderate"))
-            return
-
-        logs = self._load_logs()
-        if not logs:
-            await self.bot.highrise.send_whisper(user.id, self.language_manager.get_message("no_logs_found"))
-            return
-
-        recent = logs[-10:]
-        lines = []
-        for entry in recent:
-            line = f"{entry['time']} | {entry['action']} | {entry['target']} by {entry['moderator']}"
-            if entry.get("extra"):
-                line += f" ({entry['extra']})"
-            lines.append(line)
-
-        for line in lines:
-            await self.bot.highrise.send_whisper(user.id, line)
-
+            return None
+    
     def get_help_message(self) -> str:
-        return self.language_manager.get_help_message("moderation")
+        """Yardım mesajını döndür"""
+        return "🔧 Yetki Komutları (Hostlar)\n• !mod @kullanıcı - Mod yetkisi ver/kaldır\n• !design @kullanıcı - Design yetkisi ver/kaldır\nNot: Aynı komutu tekrar kullanırsan yetki kaldırılır"
