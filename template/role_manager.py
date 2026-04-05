@@ -2,240 +2,100 @@
 import json
 import os
 from typing import Dict, List, Optional
-from highrise import Item
 
-class OutfitManager:
+class RoleManager:
     def __init__(self):
-        self.outfits_file = "data/outfits.json"
-        self.ensure_outfits_file()
+        self.roles = ["host", "admin", "vip"]
+        self.role_files = {
+            "host": "data/hosts.json",
+            "admin": "data/admins.json", 
+            "vip": "data/vips.json"
+        }
+        self.ensure_role_files()
     
-    def ensure_outfits_file(self):
-        """Outfit dosyasının var olduğundan emin ol"""
+    def ensure_role_files(self):
+        """Rol dosyalarının var olduğundan emin ol"""
         os.makedirs("data", exist_ok=True)
-        if not os.path.exists(self.outfits_file):
-            default_outfits = {
-                "outfit1": [
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "body-flesh",
-                        "account_bound": False,
-                        "active_palette": 27
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "eye-n_basic2018malesquaresleepy",
-                        "account_bound": False,
-                        "active_palette": 7
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "eyebrow-n_basic2018newbrows07",
-                        "account_bound": False,
-                        "active_palette": 0
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "nose-n_basic2018newnose05",
-                        "account_bound": False,
-                        "active_palette": 0
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "mouth-basic2018chippermouth",
-                        "account_bound": False,
-                        "active_palette": -1
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "shirt-n_starteritems2019tankwhite",
-                        "account_bound": False,
-                        "active_palette": -1
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "shorts-f_pantyhoseshortsnavy",
-                        "account_bound": False,
-                        "active_palette": -1
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "shoes-n_whitedans",
-                        "account_bound": False,
-                        "active_palette": -1
-                    }
-                ],
-                "outfit2": [
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "body-flesh",
-                        "account_bound": False,
-                        "active_palette": 27
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "eye-n_basic2018malesquaresleepy",
-                        "account_bound": False,
-                        "active_palette": 7
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "eyebrow-n_basic2018newbrows07",
-                        "account_bound": False,
-                        "active_palette": 0
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "nose-n_basic2018newnose05",
-                        "account_bound": False,
-                        "active_palette": 0
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "mouth-basic2018chippermouth",
-                        "account_bound": False,
-                        "active_palette": -1
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "dress-n_starteritems2019summerdressblue",
-                        "account_bound": False,
-                        "active_palette": -1
-                    },
-                    {
-                        "type": "clothing",
-                        "amount": 1,
-                        "id": "shoes-n_whitedans",
-                        "account_bound": False,
-                        "active_palette": -1
-                    }
-                ]
-            }
-            with open(self.outfits_file, 'w', encoding='utf-8') as f:
-                json.dump(default_outfits, f, ensure_ascii=False, indent=2)
+        for role, file_path in self.role_files.items():
+            if not os.path.exists(file_path):
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    json.dump({"users": []}, f, ensure_ascii=False, indent=2)
     
-    def load_outfits(self) -> Dict:
-        """Outfit verilerini yükle"""
-        try:
-            with open(self.outfits_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except (FileNotFoundError, json.JSONDecodeError):
-            return {}
+    def _recreate_role_file(self, role: str):
+        """Bozuk rol dosyasını yeniden oluştur"""
+        if role in self.role_files:
+            try:
+                with open(self.role_files[role], 'w', encoding='utf-8') as f:
+                    json.dump({"users": []}, f, ensure_ascii=False, indent=2)
+                print(f"{role} rol dosyası yeniden oluşturuldu")
+            except Exception as e:
+                print(f"{role} rol dosyası oluşturulamadı: {e}")
     
-    def save_outfits(self, outfits: Dict) -> bool:
-        """Outfit verilerini kaydet"""
+    def load_role_users(self, role: str) -> List[str]:
+        """Belirli bir rolün kullanıcılarını yükle"""
+        if role not in self.roles:
+            return []
+        
         try:
-            with open(self.outfits_file, 'w', encoding='utf-8') as f:
-                json.dump(outfits, f, ensure_ascii=False, indent=2)
+            with open(self.role_files[role], 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data.get("users", [])
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            print(f"Rol dosyası okuma hatası ({role}): {e}")
+            # Dosyayı yeniden oluştur
+            self._recreate_role_file(role)
+            return []
+    
+    def save_role_users(self, role: str, users: List[str]) -> bool:
+        """Belirli bir rolün kullanıcılarını kaydet"""
+        if role not in self.roles:
+            return False
+        
+        try:
+            with open(self.role_files[role], 'w', encoding='utf-8') as f:
+                json.dump({"users": users}, f, ensure_ascii=False, indent=2)
             return True
         except Exception:
             return False
     
-    def get_outfit(self, outfit_name: str) -> Optional[List[Item]]:
-        """Belirli bir outfit'i al ve Item listesine çevir"""
-        outfits = self.load_outfits()
-        outfit_data = outfits.get(outfit_name.lower())
+    def add_user_to_role(self, username: str, role: str) -> bool:
+        """Kullanıcıyı role ekle"""
+        if role not in self.roles:
+            return False
         
-        if not outfit_data:
-            return None
-        
-        # Eski format kontrolü (geriye uyumluluk için)
-        if isinstance(outfit_data, list):
-            items_data = outfit_data
-        else:
-            items_data = outfit_data.get("items", [])
-        
-        # JSON verilerini Item objelerine çevir
-        items = []
-        for item_data in items_data:
-            item = Item(
-                type=item_data.get("type", "clothing"),
-                amount=item_data.get("amount", 1),
-                id=item_data.get("id", ""),
-                account_bound=item_data.get("account_bound", False),
-                active_palette=item_data.get("active_palette", -1)
-            )
-            items.append(item)
-        
-        return items
-    
-    def get_outfit_list(self) -> List[str]:
-        """Mevcut outfit isimlerini al"""
-        outfits = self.load_outfits()
-        return list(outfits.keys())
-    
-    def get_outfit_display_name(self, outfit_name: str) -> Optional[str]:
-        """Outfit'in görünür adını al"""
-        outfits = self.load_outfits()
-        outfit_data = outfits.get(outfit_name.lower())
-        
-        if not outfit_data:
-            return None
-        
-        # Eski format kontrolü
-        if isinstance(outfit_data, list):
-            return outfit_name
-        else:
-            return outfit_data.get("display_name", outfit_name)
-    
-    def add_outfit(self, outfit_name: str, items: List[Dict], display_name: str = None) -> bool:
-        """Yeni outfit ekle"""
-        outfits = self.load_outfits()
-        outfit_data = {
-            "items": items,
-            "display_name": display_name if display_name else outfit_name
-        }
-        outfits[outfit_name.lower()] = outfit_data
-        return self.save_outfits(outfits)
-    
-    def remove_outfit(self, outfit_name: str) -> bool:
-        """Outfit'i sil"""
-        outfits = self.load_outfits()
-        if outfit_name.lower() in outfits:
-            del outfits[outfit_name.lower()]
-            return self.save_outfits(outfits)
+        users = self.load_role_users(role)
+        if username.lower() not in [u.lower() for u in users]:
+            users.append(username)
+            return self.save_role_users(role, users)
         return False
     
-    def clear_all_outfits(self) -> bool:
-        """Tüm kıyafetleri sil"""
-        return self.save_outfits({})
+    def remove_user_from_role(self, username: str, role: str) -> bool:
+        """Kullanıcıyı rolden çıkar"""
+        if role not in self.roles:
+            return False
+        
+        users = self.load_role_users(role)
+        users = [u for u in users if u.lower() != username.lower()]
+        return self.save_role_users(role, users)
     
-    def get_next_outfit_number(self) -> str:
-        """Bir sonraki outfit numarasını al"""
-        outfits = self.load_outfits()
-        max_num = 0
-        for outfit_name in outfits.keys():
-            if outfit_name.startswith("outfit"):
-                try:
-                    num = int(outfit_name.replace("outfit", ""))
-                    max_num = max(max_num, num)
-                except ValueError:
-                    continue
-        return f"outfit{max_num + 1}"
+    def get_user_role(self, username: str) -> Optional[str]:
+        """Kullanıcının rolünü al (en yüksek rol)"""
+        for role in self.roles:  # host, admin, vip sırasında
+            users = self.load_role_users(role)
+            if username.lower() in [u.lower() for u in users]:
+                return role
+        return None
     
-    def convert_webapi_outfit_to_items(self, webapi_outfit: list) -> List[Dict]:
-        """WebAPI outfit formatını JSON formatına çevir"""
-        items = []
-        for outfit_item in webapi_outfit:
-            item_data = {
-                "type": "clothing",
-                "amount": 1,
-                "id": outfit_item.item_id,
-                "account_bound": False,
-                "active_palette": outfit_item.active_palette if outfit_item.active_palette is not None else -1
-            }
-            items.append(item_data)
-        return items
+    def is_host(self, username: str) -> bool:
+        """Kullanıcının host olup olmadığını kontrol et"""
+        return self.get_user_role(username) == "host"
+    
+    def has_role(self, username: str, role: str) -> bool:
+        """Kullanıcının belirli bir rolü olup olmadığını kontrol et"""
+        user_role = self.get_user_role(username)
+        if not user_role:
+            return False
+        
+        # Rol hiyerarşisi: host > admin > vip
+        role_hierarchy = {"host": 3, "admin": 2, "vip": 1}
+        return role_hierarchy.get(user_role, 0) >= role_hierarchy.get(role, 0)
