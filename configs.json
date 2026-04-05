@@ -1,0 +1,22 @@
+{
+  "bots": [
+    {
+      "name": "Bot2",
+      "room_id": "697ceb5fc43633dda9e7b7e9",
+      "bot_token": "2c02827cc63f80b64934137d8c5bc24e94368e9c1884f2004974ad23dec0712f",
+      "enabled": true
+    },
+    {
+      "name": "bot",
+      "room_id": "59eb0de4337a4e6f8823b62c",
+      "bot_token": "eebf09b827611b179a3c6baf00f8ebb55099be8d3fbdb4603d87d53364d5af57",
+      "enabled": true
+    },
+    {
+      "name": "ecrin",
+      "room_id": "697ceb5fc43633dda9e7b7e9",
+      "bot_token": "2c02827cc63f80b64934137d8c5bc24e94368e9c1884f2004974ad23dec0712f",
+      "enabled": true
+    }
+  ]
+}
