@@ -1,7 +1,5 @@
 from highrise import BaseBot, SessionMetadata, User, Position, AnchorPosition
-from highrise.__main__ import *
 import os
-import time
 import random
 import asyncio
 import json
@@ -1242,17 +1240,3 @@ class MyBot(BaseBot):
                     tip.append(bars_dictionary[bar_value])
 
         return ",".join(tip)
-
-ROOM_ID = os.getenv("ROOM_ID", "ROOM_ID_BURAYA")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "BOT_TOKEN_BURAYA")
-
-if __name__ == "__main__":
-    definitions = [BotDefinition(MyBot(), ROOM_ID, BOT_TOKEN)]
-    while True:
-        try:
-            arun(main(definitions))
-        except Exception as e:
-            import traceback
-            traceback.print_exc()
-            time.sleep(1)
-            continue
