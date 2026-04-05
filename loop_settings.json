@@ -1,0 +1,1128 @@
+
+{
+  "1": {
+    "id": "emote-looping",
+    "name": "fairytwirl",
+    "number": 1
+  },
+  "2": {
+    "id": "idle-floating",
+    "name": "fairyfloat",
+    "number": 2
+  },
+  "3": {
+    "id": "emote-launch",
+    "name": "launch",
+    "number": 3
+  },
+  "4": {
+    "id": "emote-cutesalute",
+    "name": "cutesalute",
+    "number": 4
+  },
+  "5": {
+    "id": "emote-salute",
+    "name": "atattention",
+    "number": 5
+  },
+  "6": {
+    "id": "dance-tiktok11",
+    "name": "tiktok",
+    "number": 6
+  },
+  "7": {
+    "id": "emote-kissing-bound",
+    "name": "smooch",
+    "number": 7
+  },
+  "8": {
+    "id": "dance-employee",
+    "name": "pushit",
+    "number": 8
+  },
+  "9": {
+    "id": "emote-gift",
+    "name": "foryou",
+    "number": 9
+  },
+  "10": {
+    "id": "dance-touch",
+    "name": "touch",
+    "number": 10
+  },
+  "11": {
+    "id": "dance-kawai",
+    "name": "kawaii",
+    "number": 11
+  },
+  "12": {
+    "id": "sit-relaxed",
+    "name": "repose",
+    "number": 12
+  },
+  "13": {
+    "id": "emote-sleigh",
+    "name": "sleigh",
+    "number": 13
+  },
+  "14": {
+    "id": "emote-hyped",
+    "name": "hyped",
+    "number": 14
+  },
+  "15": {
+    "id": "dance-jinglebell",
+    "name": "jingle",
+    "number": 15
+  },
+  "16": {
+    "id": "idle-toilet",
+    "name": "gottago",
+    "number": 16
+  },
+  "17": {
+    "id": "emote-timejump",
+    "name": "timejump",
+    "number": 17
+  },
+  "18": {
+    "id": "idle-wild",
+    "name": "scritchy",
+    "number": 18
+  },
+  "19": {
+    "id": "idle-nervous",
+    "name": "bitnervous",
+    "number": 19
+  },
+  "20": {
+    "id": "emote-iceskating",
+    "name": "iceskating",
+    "number": 20
+  },
+  "21": {
+    "id": "emote-celebrate",
+    "name": "partytime",
+    "number": 21
+  },
+  "22": {
+    "id": "emote-pose10",
+    "name": "arabesque",
+    "number": 22
+  },
+  "23": {
+    "id": "emote-shy2",
+    "name": "bashful",
+    "number": 23
+  },
+  "24": {
+    "id": "emote-headblowup",
+    "name": "revelations",
+    "number": 24
+  },
+  "25": {
+    "id": "emote-creepycute",
+    "name": "watchyourback",
+    "number": 25
+  },
+  "26": {
+    "id": "dance-creepypuppet",
+    "name": "creepypuppet",
+    "number": 26
+  },
+  "27": {
+    "id": "dance-anime",
+    "name": "saunter",
+    "number": 27
+  },
+  "28": {
+    "id": "emote-pose6",
+    "name": "surprise",
+    "number": 28
+  },
+  "29": {
+    "id": "emote-celebrationstep",
+    "name": "celebration",
+    "number": 29
+  },
+  "30": {
+    "id": "dance-pinguin",
+    "name": "penguin",
+    "number": 30
+  },
+  "31": {
+    "id": "emote-boxer",
+    "name": "boxer",
+    "number": 31
+  },
+  "32": {
+    "id": "idle-guitar",
+    "name": "airguitar",
+    "number": 32
+  },
+  "33": {
+    "id": "emote-stargazer",
+    "name": "stargaze",
+    "number": 33
+  },
+  "34": {
+    "id": "emote-pose9",
+    "name": "ditzy",
+    "number": 34
+  },
+  "35": {
+    "id": "idle-uwu",
+    "name": "uwu",
+    "number": 35
+  },
+  "36": {
+    "id": "dance-wrong",
+    "name": "wrong",
+    "number": 36
+  },
+  "37": {
+    "id": "emote-fashionista",
+    "name": "fashion",
+    "number": 37
+  },
+  "38": {
+    "id": "dance-icecream",
+    "name": "icecream",
+    "number": 38
+  },
+  "39": {
+    "id": "idle-dance-tiktok4",
+    "name": "sayso",
+    "number": 39
+  },
+  "40": {
+    "id": "idle_zombie",
+    "name": "zombie",
+    "number": 40
+  },
+  "41": {
+    "id": "emote-astronaut",
+    "name": "astronaut",
+    "number": 41
+  },
+  "42": {
+    "id": "emote-punkguitar",
+    "name": "punk",
+    "number": 42
+  },
+  "43": {
+    "id": "emote-gravity",
+    "name": "zerogravity",
+    "number": 43
+  },
+  "44": {
+    "id": "emote-pose7",
+    "name": "beautiful",
+    "number": 44
+  },
+  "45": {
+    "id": "emote-pose8",
+    "name": "omg",
+    "number": 45
+  },
+  "46": {
+    "id": "idle-dance-casual",
+    "name": "casual",
+    "number": 46
+  },
+  "47": {
+    "id": "emote-pose1",
+    "name": "wink",
+    "number": 47
+  },
+  "48": {
+    "id": "emote-pose3",
+    "name": "fightme",
+    "number": 48
+  },
+  "49": {
+    "id": "emote-pose5",
+    "name": "icon",
+    "number": 49
+  },
+  "50": {
+    "id": "emote-cute",
+    "name": "cute",
+    "number": 50
+  },
+  "51": {
+    "id": "emote-cutey",
+    "name": "cutey",
+    "number": 51
+  },
+  "52": {
+    "id": "emote-greedy",
+    "name": "greedy",
+    "number": 52
+  },
+  "53": {
+    "id": "dance-tiktok9",
+    "name": "viralgroove",
+    "number": 53
+  },
+  "54": {
+    "id": "dance-weird",
+    "name": "weird",
+    "number": 54
+  },
+  "55": {
+    "id": "dance-shuffle",
+    "name": "shuffle",
+    "number": 55
+  },
+  "56": {
+    "id": "emoji-gagging",
+    "name": "gagging",
+    "number": 56
+  },
+  "57": {
+    "id": "emoji-celebrate",
+    "name": "raise",
+    "number": 57
+  },
+  "58": {
+    "id": "dance-tiktok8",
+    "name": "savage",
+    "number": 58
+  },
+  "59": {
+    "id": "dance-blackpink",
+    "name": "blackpink",
+    "number": 59
+  },
+  "60": {
+    "id": "emote-model",
+    "name": "model",
+    "number": 60
+  },
+  "61": {
+    "id": "dance-tiktok2",
+    "name": "dontstartnow",
+    "number": 61
+  },
+  "62": {
+    "id": "dance-pennywise",
+    "name": "pennywise",
+    "number": 62
+  },
+  "63": {
+    "id": "emote-bow",
+    "name": "bow",
+    "number": 63
+  },
+  "64": {
+    "id": "dance-russian",
+    "name": "russian",
+    "number": 64
+  },
+  "65": {
+    "id": "emote-curtsy",
+    "name": "curtsy",
+    "number": 65
+  },
+  "66": {
+    "id": "emote-snowball",
+    "name": "snowball",
+    "number": 66
+  },
+  "67": {
+    "id": "emote-hot",
+    "name": "hot",
+    "number": 67
+  },
+  "68": {
+    "id": "emote-snowangel",
+    "name": "snowangel",
+    "number": 68
+  },
+  "69": {
+    "id": "emote-charging",
+    "name": "charging",
+    "number": 69
+  },
+  "70": {
+    "id": "dance-shoppingcart",
+    "name": "letsgoshopping",
+    "number": 70
+  },
+  "71": {
+    "id": "emote-confused",
+    "name": "confused",
+    "number": 71
+  },
+  "72": {
+    "id": "idle-enthusiastic",
+    "name": "enthused",
+    "number": 72
+  },
+  "73": {
+    "id": "emote-telekinesis",
+    "name": "telekinesis",
+    "number": 73
+  },
+  "74": {
+    "id": "emote-float",
+    "name": "float",
+    "number": 74
+  },
+  "75": {
+    "id": "emote-teleporting",
+    "name": "teleporting",
+    "number": 75
+  },
+  "76": {
+    "id": "emote-swordfight",
+    "name": "swordfight",
+    "number": 76
+  },
+  "77": {
+    "id": "emote-maniac",
+    "name": "maniac",
+    "number": 77
+  },
+  "78": {
+    "id": "emote-energyball",
+    "name": "energyball",
+    "number": 78
+  },
+  "79": {
+    "id": "emote-snake",
+    "name": "worm",
+    "number": 79
+  },
+  "80": {
+    "id": "idle_singing",
+    "name": "singalong",
+    "number": 80
+  },
+  "81": {
+    "id": "emote-frog",
+    "name": "frog",
+    "number": 81
+  },
+  "82": {
+    "id": "dance-macarena",
+    "name": "macarena",
+    "number": 82
+  },
+  "83": {
+    "id": "emote-kiss",
+    "name": "kiss",
+    "number": 83
+  },
+  "84": {
+    "id": "emote-no",
+    "name": "shakehead",
+    "number": 84
+  },
+  "85": {
+    "id": "emote-sad",
+    "name": "sad",
+    "number": 85
+  },
+  "86": {
+    "id": "emote-yes",
+    "name": "nod",
+    "number": 86
+  },
+  "87": {
+    "id": "emote-laughing",
+    "name": "laughing",
+    "number": 87
+  },
+  "88": {
+    "id": "emote-hello",
+    "name": "hello",
+    "number": 88
+  },
+  "89": {
+    "id": "emoji-thumbsup",
+    "name": "thumbsup",
+    "number": 89
+  },
+  "90": {
+    "id": "mining-fail",
+    "name": "miningfail",
+    "number": 90
+  },
+  "91": {
+    "id": "emote-shy",
+    "name": "shy",
+    "number": 91
+  },
+  "92": {
+    "id": "fishing-pull",
+    "name": "fishingpull",
+    "number": 92
+  },
+  "93": {
+    "id": "emote-wave",
+    "name": "thewave",
+    "number": 93
+  },
+  "94": {
+    "id": "emoji-angry",
+    "name": "angry",
+    "number": 94
+  },
+  "95": {
+    "id": "idle_tough",
+    "name": "rough",
+    "number": 95
+  },
+  "96": {
+    "id": "fishing-idle",
+    "name": "fishingidle",
+    "number": 96
+  },
+  "97": {
+    "id": "emote-fail3",
+    "name": "dropped",
+    "number": 97
+  },
+  "98": {
+    "id": "mining-success",
+    "name": "miningsuccess",
+    "number": 98
+  },
+  "99": {
+    "id": "emote-receive-happy",
+    "name": "receivehappy",
+    "number": 99
+  },
+  "100": {
+    "id": "emote-cold",
+    "name": "cold",
+    "number": 100
+  },
+  "101": {
+    "id": "fishing-cast",
+    "name": "fishingcast",
+    "number": 101
+  },
+  "102": {
+    "id": "idle-loop-sitfloor",
+    "name": "sit",
+    "number": 102
+  },
+  "103": {
+    "id": "dance-tiktok10",
+    "name": "shuffledance",
+    "number": 103
+  },
+  "104": {
+    "id": "emote-receive-disappointed",
+    "name": "receivesad",
+    "number": 104
+  },
+  "105": {
+    "id": "emote-tired",
+    "name": "tired",
+    "number": 105
+  },
+  "106": {
+    "id": "dance-hipshake",
+    "name": "hipshake",
+    "number": 106
+  },
+  "107": {
+    "id": "dance-fruity",
+    "name": "fruity",
+    "number": 107
+  },
+  "108": {
+    "id": "dance-cheerleader",
+    "name": "cheerleader",
+    "number": 108
+  },
+  "109": {
+    "id": "dance-tiktok14",
+    "name": "magnetic",
+    "number": 109
+  },
+  "110": {
+    "id": "idle-howl",
+    "name": "nocturnal",
+    "number": 110
+  },
+  "111": {
+    "id": "emote-howl",
+    "name": "moonlit",
+    "number": 111
+  },
+  "112": {
+    "id": "emote-trampoline",
+    "name": "trampoline",
+    "number": 112
+  },
+  "113": {
+    "id": "emote-attention",
+    "name": "attention",
+    "number": 113
+  },
+  "114": {
+    "id": "sit-open",
+    "name": "laidback",
+    "number": 114
+  },
+  "115": {
+    "id": "emote-shrink",
+    "name": "shrink",
+    "number": 115
+  },
+  "116": {
+    "id": "emote-puppet",
+    "name": "puppet",
+    "number": 116
+  },
+  "117": {
+    "id": "dance-aerobics",
+    "name": "pushups",
+    "number": 117
+  },
+  "118": {
+    "id": "dance-duckwalk",
+    "name": "duckwalk",
+    "number": 118
+  },
+  "119": {
+    "id": "dance-handsup",
+    "name": "handsintheair",
+    "number": 119
+  },
+  "120": {
+    "id": "dance-metal",
+    "name": "rockout",
+    "number": 120
+  },
+  "121": {
+    "id": "dance-orangejustice",
+    "name": "orangejuice",
+    "number": 121
+  },
+  "122": {
+    "id": "dance-singleladies",
+    "name": "ringonit",
+    "number": 122
+  },
+  "123": {
+    "id": "dance-smoothwalk",
+    "name": "smoothwalk",
+    "number": 123
+  },
+  "124": {
+    "id": "dance-voguehands",
+    "name": "voguehands",
+    "number": 124
+  },
+  "125": {
+    "id": "emoji-arrogance",
+    "name": "arrogance",
+    "number": 125
+  },
+  "126": {
+    "id": "emoji-give-up",
+    "name": "giveup",
+    "number": 126
+  },
+  "127": {
+    "id": "emoji-hadoken",
+    "name": "fireball",
+    "number": 127
+  },
+  "128": {
+    "id": "emoji-halo",
+    "name": "levitate",
+    "number": 128
+  },
+  "129": {
+    "id": "emoji-lying",
+    "name": "lying",
+    "number": 129
+  },
+  "130": {
+    "id": "emoji-naughty",
+    "name": "naughty",
+    "number": 130
+  },
+  "131": {
+    "id": "emoji-poop",
+    "name": "stinky",
+    "number": 131
+  },
+  "132": {
+    "id": "emoji-pray",
+    "name": "pray",
+    "number": 132
+  },
+  "133": {
+    "id": "emoji-punch",
+    "name": "punch",
+    "number": 133
+  },
+  "134": {
+    "id": "emoji-sick",
+    "name": "sick",
+    "number": 134
+  },
+  "135": {
+    "id": "emoji-smirking",
+    "name": "smirk",
+    "number": 135
+  },
+  "136": {
+    "id": "emoji-sneeze",
+    "name": "sneeze",
+    "number": 136
+  },
+  "137": {
+    "id": "emoji-there",
+    "name": "point",
+    "number": 137
+  },
+  "138": {
+    "id": "emote-death2",
+    "name": "collapse",
+    "number": 138
+  },
+  "139": {
+    "id": "emote-disco",
+    "name": "disco",
+    "number": 139
+  },
+  "140": {
+    "id": "emote-ghost-idle",
+    "name": "ghostfloat",
+    "number": 140
+  },
+  "141": {
+    "id": "emote-handstand",
+    "name": "handstand",
+    "number": 141
+  },
+  "142": {
+    "id": "emote-kicking",
+    "name": "superkick",
+    "number": 142
+  },
+  "143": {
+    "id": "emote-panic",
+    "name": "panic",
+    "number": 143
+  },
+  "144": {
+    "id": "emote-splitsdrop",
+    "name": "splits",
+    "number": 144
+  },
+  "145": {
+    "id": "idle_layingdown",
+    "name": "attentive",
+    "number": 145
+  },
+  "146": {
+    "id": "idle_layingdown2",
+    "name": "relaxed",
+    "number": 146
+  },
+  "147": {
+    "id": "emote-apart",
+    "name": "fallingapart",
+    "number": 147
+  },
+  "148": {
+    "id": "emote-baseball",
+    "name": "homerun",
+    "number": 148
+  },
+  "149": {
+    "id": "emote-boo",
+    "name": "boo",
+    "number": 149
+  },
+  "150": {
+    "id": "emote-bunnyhop",
+    "name": "bunnyhop",
+    "number": 150
+  },
+  "151": {
+    "id": "emote-death",
+    "name": "revival",
+    "number": 151
+  },
+  "152": {
+    "id": "emote-deathdrop",
+    "name": "faintdrop",
+    "number": 152
+  },
+  "153": {
+    "id": "emote-elbowbump",
+    "name": "elbowbump",
+    "number": 153
+  },
+  "154": {
+    "id": "emote-fail1",
+    "name": "fall",
+    "number": 154
+  },
+  "155": {
+    "id": "emote-fail2",
+    "name": "clumsy",
+    "number": 155
+  },
+  "156": {
+    "id": "emote-fainting",
+    "name": "faint",
+    "number": 156
+  },
+  "157": {
+    "id": "emote-hugyourself",
+    "name": "hugyourself",
+    "number": 157
+  },
+  "158": {
+    "id": "emote-jetpack",
+    "name": "jetpack",
+    "number": 158
+  },
+  "159": {
+    "id": "emote-judochop",
+    "name": "judochop",
+    "number": 159
+  },
+  "160": {
+    "id": "emote-jumpb",
+    "name": "jump",
+    "number": 160
+  },
+  "161": {
+    "id": "emote-laughing2",
+    "name": "amused",
+    "number": 161
+  },
+  "162": {
+    "id": "emote-levelup",
+    "name": "levelup",
+    "number": 162
+  },
+  "163": {
+    "id": "emote-monster_fail",
+    "name": "monsterfail",
+    "number": 163
+  },
+  "164": {
+    "id": "emote-nightfever",
+    "name": "nightfever",
+    "number": 164
+  },
+  "165": {
+    "id": "emote-ninjarun",
+    "name": "ninjarun",
+    "number": 165
+  },
+  "166": {
+    "id": "emote-peace",
+    "name": "peace",
+    "number": 166
+  },
+  "167": {
+    "id": "emote-peekaboo",
+    "name": "peekaboo",
+    "number": 167
+  },
+  "168": {
+    "id": "emote-proposing",
+    "name": "proposing",
+    "number": 168
+  },
+  "169": {
+    "id": "emote-rainbow",
+    "name": "rainbow",
+    "number": 169
+  },
+  "170": {
+    "id": "emote-robot",
+    "name": "robot",
+    "number": 170
+  },
+  "171": {
+    "id": "emote-rofl",
+    "name": "rofl",
+    "number": 171
+  },
+  "172": {
+    "id": "emote-roll",
+    "name": "roll",
+    "number": 172
+  },
+  "173": {
+    "id": "emote-ropepull",
+    "name": "ropepull",
+    "number": 173
+  },
+  "174": {
+    "id": "emote-secrethandshake",
+    "name": "secrethandshake",
+    "number": 174
+  },
+  "175": {
+    "id": "emote-sumo",
+    "name": "sumofight",
+    "number": 175
+  },
+  "176": {
+    "id": "emote-superpunch",
+    "name": "superpunch",
+    "number": 176
+  },
+  "177": {
+    "id": "emote-superrun",
+    "name": "superrun",
+    "number": 177
+  },
+  "178": {
+    "id": "emote-theatrical",
+    "name": "theatrical",
+    "number": 178
+  },
+  "179": {
+    "id": "emote-wings",
+    "name": "ibelieve",
+    "number": 179
+  },
+  "180": {
+    "id": "idle-angry",
+    "name": "irritated",
+    "number": 180
+  },
+  "181": {
+    "id": "idle-floorsleeping",
+    "name": "cozynap",
+    "number": 181
+  },
+  "182": {
+    "id": "idle-floorsleeping2",
+    "name": "relaxing",
+    "number": 182
+  },
+  "183": {
+    "id": "idle-hero",
+    "name": "heropose",
+    "number": 183
+  },
+  "184": {
+    "id": "idle-lookup",
+    "name": "ponder",
+    "number": 184
+  },
+  "185": {
+    "id": "idle-posh",
+    "name": "posh",
+    "number": 185
+  },
+  "186": {
+    "id": "idle-sad",
+    "name": "poutyface",
+    "number": 186
+  },
+  "187": {
+    "id": "emote-dab",
+    "name": "dab",
+    "number": 187
+  },
+  "188": {
+    "id": "emote-gangnam",
+    "name": "gangnamstyle",
+    "number": 188
+  },
+  "189": {
+    "id": "emoji-crying",
+    "name": "sob",
+    "number": 189
+  },
+  "190": {
+    "id": "idle-loop-tapdance",
+    "name": "taploop",
+    "number": 190
+  },
+  "191": {
+    "id": "idle-loop-tired",
+    "name": "sleepy",
+    "number": 191
+  },
+  "192": {
+    "id": "dance-sexy",
+    "name": "wiggledance",
+    "number": 192
+  },
+  "193": {
+    "id": "emoji-eyeroll",
+    "name": "eyeroll",
+    "number": 193
+  },
+  "194": {
+    "id": "emote-gordonshuffle",
+    "name": "moonwalk",
+    "number": 194
+  },
+  "195": {
+    "id": "idle-fighter",
+    "name": "fighter",
+    "number": 195
+  },
+  "196": {
+    "id": "idle-dance-tiktok7",
+    "name": "renegade",
+    "number": 196
+  },
+  "197": {
+    "id": "emote-exasperatedb",
+    "name": "facepalm",
+    "number": 197
+  },
+  "198": {
+    "id": "idle-dance-headbobbing",
+    "name": "feelthebeat",
+    "number": 198
+  },
+  "199": {
+    "id": "emote-happy",
+    "name": "happy",
+    "number": 199
+  },
+  "200": {
+    "id": "emote-hug",
+    "name": "hug",
+    "number": 200
+  },
+  "201": {
+    "id": "emote-slap",
+    "name": "slap",
+    "number": 201
+  },
+  "202": {
+    "id": "emoji-clapping",
+    "name": "clap",
+    "number": 202
+  },
+  "203": {
+    "id": "emote-exasperated",
+    "name": "exasperated",
+    "number": 203
+  },
+  "204": {
+    "id": "emote-kissing",
+    "name": "sweetsmooch",
+    "number": 204
+  },
+  "205": {
+    "id": "emote-tapdance",
+    "name": "tapdance",
+    "number": 205
+  },
+  "206": {
+    "id": "emote-suckthumb",
+    "name": "thumbsuck",
+    "number": 206
+  },
+  "207": {
+    "id": "emote-harlemshake",
+    "name": "harlemshake",
+    "number": 207
+  },
+  "208": {
+    "id": "emote-heartfingers",
+    "name": "heartfingers",
+    "number": 208
+  },
+  "209": {
+    "id": "idle-loop-aerobics",
+    "name": "aerobics",
+    "number": 209
+  },
+  "210": {
+    "id": "emote-heartshape",
+    "name": "heartshape",
+    "number": 210
+  },
+  "211": {
+    "id": "emote-hearteyes",
+    "name": "hearteyes",
+    "number": 211
+  },
+  "212": {
+    "id": "dance-wild",
+    "name": "karmadance",
+    "number": 212
+  },
+  "213": {
+    "id": "emoji-scared",
+    "name": "gasp",
+    "number": 213
+  },
+  "214": {
+    "id": "emote-think",
+    "name": "think",
+    "number": 214
+  },
+  "215": {
+    "id": "emoji-dizzy",
+    "name": "stunned",
+    "number": 215
+  },
+  "216": {
+    "id": "emote-embarrassed",
+    "name": "embarrassed",
+    "number": 216
+  },
+  "217": {
+    "id": "emote-disappear",
+    "name": "blastoff",
+    "number": 217
+  },
+  "218": {
+    "id": "idle-loop-annoyed",
+    "name": "annoyed",
+    "number": 218
+  },
+  "219": {
+    "id": "dance-zombie",
+    "name": "dancezombie",
+    "number": 219
+  },
+  "220": {
+    "id": "idle-loop-happy",
+    "name": "chillin",
+    "number": 220
+  },
+  "221": {
+    "id": "emote-frustrated",
+    "name": "frustrated",
+    "number": 221
+  },
+  "222": {
+    "id": "idle-loop-sad",
+    "name": "bummed",
+    "number": 222
+  },
+  "223": {
+    "id": "emoji-ghost",
+    "name": "ghost",
+    "number": 223
+  },
+  "224": {
+    "id": "emoji-mind-blown",
+    "name": "mindblown",
+    "number": 224
+  },
+  "225": {
+    "id": "emote-zombierun",
+    "name": "zombierun",
+    "number": 225
+  }
+}

@@ -1,0 +1,1670 @@
+{
+  "outfit1": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_01",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_08",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018dolleyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018fullround",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "skirt-n_room22019skirtwithsocksplaid",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_room22019kneehighsblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_starteritems2019femtshirtblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_basic2018wavypulledback",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_basic2018wavylowpony",
+        "account_bound": false,
+        "active_palette": 1
+      }
+    ],
+    "display_name": "Party Time"
+  },
+  "outfit2": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_01",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_08",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018dolleyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018fullround",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "skirt-n_starteritems2018whiteskirt",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_starteritems2019flatspink",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_room22019bratoppink",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_basic2018wavypulledback",
+        "account_bound": false,
+        "active_palette": 6
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_basic2018wavylowpony",
+        "account_bound": false,
+        "active_palette": 6
+      }
+    ],
+    "display_name": "Pink Bot"
+  },
+  "outfit3": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 27
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_basic2018newbrows07",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_basic2018freckle04",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_malenew12",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_03_b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_drstompsbootsyellow",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_room22019techpantscamo",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018fullpeaked",
+        "account_bound": false,
+        "active_palette": -1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018malealmondsquint",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "bag-n_room32019flannelwrapyellow",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_starteritems2019tankblack",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Fishing Bot"
+  },
+  "outfit4": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_01",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_08",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018dolleyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018fullround",
+        "account_bound": false,
+        "active_palette": 3
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_room32019croppedspaghettitankblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_basic2020overshoulderpony",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_room22019shortcutoffsdenim",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_whitedans",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Pier Bot"
+  },
+  "outfit5": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 3
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_basic2018newbrows07",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_basic2018freckle04",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_03_b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018holloweyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018grin",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_malenew25",
+        "account_bound": false,
+        "active_palette": 15
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_malenew25",
+        "account_bound": false,
+        "active_palette": 15
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_starteritems2019pulloverblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_room12019rippedpantsblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_room12019bootsblack",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Swamp Bot"
+  },
+  "outfit6": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_03_b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_malenew02",
+        "account_bound": false,
+        "active_palette": 6
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_malenew02",
+        "account_bound": false,
+        "active_palette": 6
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_basic2018newbrows15",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018unimpressed",
+        "account_bound": false,
+        "active_palette": -1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018maleroundsquint",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_starteritems2019pulloverwhite",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_drstompsbootswhite",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_starteritems2019cuffedjeanswhite",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Paradise Bot"
+  },
+  "outfit7": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 24
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_03_b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_malenew02",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_malenew20",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018maleroundsleepy",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_starteritems2019cuffedjeansblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018thinpeaked",
+        "account_bound": false,
+        "active_palette": -1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_basic2018newbrows09",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_flashysuit",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_starteritems2018conversewhite",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Chief Bot"
+  },
+  "outfit8": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_01",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_08",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018dolleyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018fullround",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "skirt-n_starteritems2018whiteskirt",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_basic2018wavypulledback",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_basic2018wavylowpony",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_room22019kneehighsblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_room32019croppedspaghettitankblack",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Nisan Bot"
+  },
+  "outfit9": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_basic2018freckle04",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018openthinround",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_03_b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_basic2018newbrows17",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_basic2018wavypulledback",
+        "account_bound": false,
+        "active_palette": 41
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_basic2019bigchunkywaves",
+        "account_bound": false,
+        "active_palette": 41
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_starteritems2018conversewhite",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018starryeye",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_room22019denimdress",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shorts-f_pantyhoseshortsnavy",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "bag-n_room12019purse",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Purple Bot"
+  },
+  "outfit10": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_06",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_room12019sweaterwithbuttondowngrey",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_room12019formalslackskhaki",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_room12019sneakersblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-m_12b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018chippermouth",
+        "account_bound": false,
+        "active_palette": -1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_03_b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_malenew04",
+        "account_bound": false,
+        "active_palette": 4
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_malenew05",
+        "account_bound": false,
+        "active_palette": 4
+      }
+    ],
+    "display_name": "Jimmy Bot"
+  },
+  "outfit11": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_01",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_08",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_registrationavatars2023arianadress",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_registrationavatars2023gymgirleyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-n_registrationavatars2023pinkmouth",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_room22019undiesblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_registrationavatars2023contour",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_basic2018straightsidebangs",
+        "account_bound": false,
+        "active_palette": 6
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_basic2018straightmedium",
+        "account_bound": false,
+        "active_palette": 6
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_registrationavatars2023arianaboots",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "bag-n_registrationavatars2023pinkbag",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Popstar Bot"
+  },
+  "outfit12": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_01",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_08",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_registrationavatars2023gymgirleyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-n_registrationavatars2023pinkmouth",
+        "account_bound": false,
+        "active_palette": 3
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "bag-n_registrationavatars2023pinkbag",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_registrationavatars2023pinkshoes",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_registrationavatars2023pinkdress",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_room22019undiesblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_registrationavatars2023contour",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_basic2019wavyflipdroop",
+        "account_bound": false,
+        "active_palette": 6
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_basic2019sweetcurls",
+        "account_bound": false,
+        "active_palette": 6
+      }
+    ],
+    "display_name": "Club Bot"
+  },
+  "outfit13": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_registrationavatars2023contour",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-n_registrationavatars2023pinkmouth",
+        "account_bound": false,
+        "active_palette": 20
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_01",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_08",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_registrationavatars2023gothgirlhair",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_registrationavatars2023gothgirlhair",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_registrationavatars2023gothgirlshoes",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_registrationavatars2023gothgirleyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_registrationavatars2023gothgirlshirt",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shorts-f_pantyhoseshortsnavy",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "bag-n_room12019purse",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Goth Bot"
+  },
+  "outfit14": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_registrationavatars2023contour",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-n_registrationavatars2023pinkmouth",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_01",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_08",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_registrationavatars2023gothgirleyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "bag-n_room12019purse",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_basic2018straightlowsidepart",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_basic2018straightlong",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckl-n_sharpfaceshadow",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_registrationavatars2023gymgirltop",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_registrationavatars2023gothguypants",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_registrationavatars2023gothgirlshoes",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Goth Girl"
+  },
+  "outfit15": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 18
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_03_b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_malenew02",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_malenew20",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018maleroundsleepy",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018thinpeaked",
+        "account_bound": false,
+        "active_palette": -1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_basic2018newbrows09",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_registrationavatars2023gothguyhoodie",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_registrationavatars2023gothguyboots",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_registrationavatars2023gothguypants",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckl-n_sharpfaceshadow",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Goth Boy"
+  },
+  "outfit16": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 2
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_01",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_08",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_registrationavatars2023gymgirleyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-n_registrationavatars2023pinkmouth",
+        "account_bound": false,
+        "active_palette": 3
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_registrationavatars2023contour",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_basic2018straightpulledback",
+        "account_bound": false,
+        "active_palette": 80
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_basic2018straightlowpony",
+        "account_bound": false,
+        "active_palette": 80
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_registrationavatars2023furryshirt",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_registrationavatars2023furrypants",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_registrationavatars2023furrysneakers",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hat-n_registrationavatars2023wolfears",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "bag-n_registrationavatars2023furrytail",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Furry Bot"
+  },
+  "outfit17": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_03_b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_malenew02",
+        "account_bound": false,
+        "active_palette": 32
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_malenew20",
+        "account_bound": false,
+        "active_palette": 32
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018maleroundsleepy",
+        "account_bound": false,
+        "active_palette": 10
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018thinpeaked",
+        "account_bound": false,
+        "active_palette": -1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_basic2018newbrows09",
+        "account_bound": false,
+        "active_palette": 16
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_registrationavatars2023pastelboyhoodie",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_registrationavatars2023contour",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_registrationavatars2023pastelboyshorts",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_registrationavatars2023pastelboyshoes",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Pastel Bot"
+  },
+  "outfit18": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 45
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_03_b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_malenew02",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_malenew20",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_basic2018newbrows09",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_registrationavatars2023contour",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_registrationavatars2023demonguyeyes",
+        "account_bound": false,
+        "active_palette": 3
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018vampteeth",
+        "account_bound": false,
+        "active_palette": -1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_registrationavatars2023demonguyboots",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_starteritems2019tankblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "bag-n_registrationavatars2023demonwings",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_room12019blackacidwashjeans",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Devil Boy"
+  },
+  "outfit19": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_registrationavatars2023contour",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_08",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_registrationavatars2023gothgirlshoes",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_registrationavatars2023demongirleyes",
+        "account_bound": false,
+        "active_palette": 7
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_basic2018straightbangslowpart",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_basic2018sleekstraightpony",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_registrationavatars2023demongirltop",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_room12019rippedpantsblack",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018lollipop",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_01",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "necklace-n_12",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "earrings-n_room12019goldhoops",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Demon Girl"
+  },
+  "outfit20": {
+    "items": [
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "body-flesh",
+        "account_bound": false,
+        "active_palette": 1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "nose-n_03_b",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_back-n_malenew02",
+        "account_bound": false,
+        "active_palette": 32
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "hair_front-n_malenew20",
+        "account_bound": false,
+        "active_palette": 32
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eye-n_basic2018maleroundsleepy",
+        "account_bound": false,
+        "active_palette": 10
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "mouth-basic2018thinpeaked",
+        "account_bound": false,
+        "active_palette": -1
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "eyebrow-n_basic2018newbrows09",
+        "account_bound": false,
+        "active_palette": 16
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shirt-n_registrationavatars2023pastelboyhoodie",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "freckle-n_registrationavatars2023contour",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "pants-n_registrationavatars2023pastelboyshorts",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "shoes-n_registrationavatars2023pastelboyshoes",
+        "account_bound": false,
+        "active_palette": 0
+      },
+      {
+        "type": "clothing",
+        "amount": 1,
+        "id": "bag-n_hrbirthdayextraitemsrecolor2023spookyimptunaxbox",
+        "account_bound": false,
+        "active_palette": 0
+      }
+    ],
+    "display_name": "Suprise!"
+  }
+}
